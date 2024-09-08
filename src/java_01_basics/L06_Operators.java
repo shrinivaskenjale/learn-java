@@ -99,45 +99,45 @@ public class L06_Operators {
 }
 
 /*
- * 
- * 
+ *
+ *
  * ====================
  * Types of operators
  * ====================
- * 
+ *
  * 1. Arithmetic Operators: + - / * %
- * 
+ *
  * 2. Assignment Operators: = += -=
- * 
+ *
  * 3. Relational Operators: == != > < >= <=
- * 
+ *
  * 4. Logical Operators: && || !
- * 
+ *
  * 5. Unary Operators: + - ++ --
- * 
+ *
  * 6. Bitwise Operators: ~ | & ^
- * 
+ *
  * 7. Shift Operators: >> << >>>
- * 
+ *
  * 8. Ternary Operators: ?:
- * 
+ *
  * 9. instanceof operator
- * 
- * 
- * 
+ *
+ *
+ *
  * ====================
  * Property of XOR:
  * ====================
- * 
+ *
  * a ^ a = 0
  * a ^ 0 = a
- * 
- * 
+ *
+ *
  * ==========================================
  * Precedence & Associativity of Operators
  * ==========================================
- * 
+ *
  * https://www.programiz.com/java-programming/operator-precedence
- * 
- * 
+ *
+ *
  */

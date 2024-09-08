@@ -11,7 +11,7 @@ public class L04_PrimitiveTypes {
         byte myByte = 3; // 1 byte
         short myShort = 4; // 2 bytes
         int myInt = 8; // 4 bytes
-        long myLong = 84l; // 8 bytes
+        long myLong = 84L; // 8 bytes
 
         // Range of n bit integral type is -2^(n-1) to 2^(n-1) - 1
         // Java doesn't have separate signed or unsigned types.
@@ -36,7 +36,7 @@ public class L04_PrimitiveTypes {
         // Data type for character values
         // ===============================
 
-        // Stores a single unicode character, unicode value of single character or
+        // Stores a single Unicode character, Unicode value of single character or
         // escape sequence of single character.
 
         char myChar = 'S'; // 2 bytes
