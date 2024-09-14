@@ -11,7 +11,10 @@ public class L04_WhileLoop {
     }
 }
 
-// The for loop is used when the number of iterations is known.
-
-// while and do...while loops are generally used when the number of iterations
-// is unknown.
+/*
+ * 
+ * The for loop is used when the number of iterations is known.
+ * 
+ * while and do...while loops are generally used when the number of iterations
+ * is unknown.
+ */

@@ -3,9 +3,8 @@ package java_01_basics;
 public class L03_VariablesAndLiterals {
     public static void main(String[] args) {
 
-
-//        Here, speedLimit is a variable of int data type, and we have assigned value 80
-//        to it. We have assigned value to the variable during declaration.
+        // Here, speedLimit is a variable of int data type, and we have assigned value
+        // 80 to it. We have assigned value to the variable during declaration.
         int speedLimit = 80;
 
         // You can declare variables and assign variables separately.
@@ -48,7 +47,7 @@ public class L03_VariablesAndLiterals {
         int octalNumber = 027;
 
         // decimal
-        int decNumber = 34;
+        int decimalNumber = 34;
 
         // hexadecimal
         int hexNumber = 0x2F;
@@ -58,7 +57,7 @@ public class L03_VariablesAndLiterals {
 
         System.out.println(binaryNumber);
         System.out.println(octalNumber);
-        System.out.println(decNumber);
+        System.out.println(decimalNumber);
         System.out.println(hexNumber);
         System.out.println(longNumber);
 
@@ -90,10 +89,11 @@ public class L03_VariablesAndLiterals {
 
         char letter = 'a';
 
+        // Backslash + u + four hexadecimal digits
         char rupees = '\u20B9';
 
         // Binary, Octal, Decimal & Hexadecimal literals can be used.
-        char letterA = 65; // A
+        char letterA = 65; // 'A'
 
         System.out.println(letter);
         System.out.println(rupees);
@@ -122,7 +122,7 @@ public class L03_VariablesAndLiterals {
         // Block and Scope
         // =================
 
-//        int data = 10; // Error
+        // int data = 10; // Error
         {
             String data = "Ten";
             System.out.println(data);
@@ -142,8 +142,10 @@ public class L03_VariablesAndLiterals {
  * declared before they can be used.
  *
  * A variable is a location in memory (storage area) to hold data.
+ * 
  * The value of a variable can be changed in the program, hence the name
  * variable.
+ * 
  * To indicate the storage area, each variable should be given a unique name
  * (identifier).
  *
@@ -157,7 +159,7 @@ public class L03_VariablesAndLiterals {
  *
  * E.g., int, char, extends, import etc.
  *
- * You cannot use keywords as variable name (or identifiers).
+ * You cannot use keywords as variable name or identifier.
  *
  * =============
  * Identifiers
@@ -166,24 +168,23 @@ public class L03_VariablesAndLiterals {
  * Identifiers are the name given to variables, classes, methods, etc.
  *
  * ===========================
- * Rules for naming variables:
+ * Rules for naming identifiers:
  * ===========================
  *
- * 1. Java is case sensitive. Hence, age and AGE are two different variables.
+ * 1. Java is case sensitive. Hence, age and AGE are two different identifiers.
  *
- * 2. Variables can contain letters, underscores, dollar signs and digits.
+ * 2. Identifiers can contain letters, underscores, dollar signs and digits.
  *
- * 3. Variables must start with either a letter or an underscore(_) or a
+ * 3. Identifiers must start with either a letter or an underscore(_) or a
  * dollar($) sign.
  *
- * 4. Variable names cannot start with numbers.
+ * 4. Identifiers cannot start with numbers.
  *
  * ===========================
  * Literals:
  * ===========================
  *
- * Literals are data used for representing fixed values. They can be used
- * directly in the code.
+ * Literals are fixed values that are directly written into the source code.
  *
  * ===========================
  * Block & Scope:

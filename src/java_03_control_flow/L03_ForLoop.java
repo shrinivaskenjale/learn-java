@@ -28,5 +28,9 @@ public class L03_ForLoop {
     }
 }
 
-// break: keyword takes you out of current loop
-// continue: keyword stops current iteration of loop and continue with next
+/*
+ * 
+ * break: keyword takes you out of current loop
+ * 
+ * continue: keyword stops current iteration of loop and continue with next
+ */

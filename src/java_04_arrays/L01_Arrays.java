@@ -4,7 +4,6 @@ import java.util.Arrays;
 
 public class L01_Arrays {
     public static void main(String[] args) {
-        // Array is reference type
 
         // =================
         // Create an array
@@ -14,9 +13,9 @@ public class L01_Arrays {
         // We must provide dimension.
         int[] intArr = new int[3];
 
-        // =================
-        // Accessing array
-        // =================
+        // =========================
+        // Accessing array elements
+        // =========================
 
         intArr[0] = 23;
         intArr[1] = 67;
@@ -59,7 +58,7 @@ public class L01_Arrays {
         }
 
         // Arrays literals can be used only when declaring and intializing together.
-        // numArr={3,4,6}; // Error
+        // numArr = {3,4,6}; // Error
 
         // =========================================
         // Creating new array with initial values
@@ -92,6 +91,8 @@ public class L01_Arrays {
  * ===========
  * Arrays
  * ===========
+ * 
+ * Array is reference type.
  * 
  * An array is a collection of similar types of data.
  * Arrays are contiguous memory blocks.

@@ -5,13 +5,11 @@ import java.util.Scanner;
 
 public class L02_ScannerInput {
     public static void main(String[] args) {
-        // ================================
-        // Create object of Scanner class
-        // ================================
 
+        // Create object of Scanner class
         Scanner sc = new Scanner(System.in);
 
-        // string input
+        // Input complete line as a string
         System.out.println("enter string:");
         String line = sc.nextLine();
         System.out.println(line);
@@ -37,6 +35,10 @@ public class L02_ScannerInput {
 
         String line2 = sc.nextLine();
         System.out.println(line2);
+
+        // Taking word as a input
+        String word = sc.next();
+        System.out.println(word);
 
         // Taking character as input
         System.out.print("Enter character: ");
@@ -88,20 +90,22 @@ public class L02_ScannerInput {
  * Java Scanner Methods to Take Input
  * =====================================
  * 
- * => nextInt() - reads an int value from the user
- * => nextFloat() - reads a float value form the user
- * => nextBoolean() - reads a boolean value from the user
- * => nextLine() - reads a line of text from the user
- * => next() - reads a word from the user
  * => nextByte() - reads a byte value from the user
- * => nextDouble() - reads a double value from the user
  * => nextShort() - reads a short value from the user
+ * => nextInt() - reads an int value from the user
  * => nextLong() - reads a long value from the user
+ * => nextFloat() - reads a float value form the user
+ * => nextDouble() - reads a double value from the user
+ * => nextBoolean() - reads a boolean value from the user
+ * => next() - reads a word from the user
+ * => nextLine() - reads a line of text from the user
  * => nextBigInteger() - reads the big integer value from the user
  * => nextBigDecimal() - reads the big decimal value from the user
  * 
  * There is no method as nextChar() for reading character input. Use
  * "next().charAt(0)" instead.
+ * 
+ * 
  * 
  * ===================================
  * java.util.InputMismatchException
@@ -143,6 +147,7 @@ public class L02_ScannerInput {
  * Checking methods
  * ==================
  * 
+ * sc.hasNextInt()
  * sc.hasNext()
  * sc.hasNextLine()
  * ...

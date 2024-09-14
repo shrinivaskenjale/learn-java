@@ -50,6 +50,7 @@ public class L06_Operators {
         // treats the operand as an unsigned value.
 
         // UNSIGNED LEFT SHIFT - <<< doesn't exist in Java.
+        // To remember, right is right >> >>> <<
 
         System.out.println(Integer.toBinaryString(-8));
         System.out.println(Integer.toBinaryString(-8 >> 3));
@@ -76,11 +77,10 @@ public class L06_Operators {
         // =========================
         // Assignment expression
         // =========================
-        /*
-         * In Java, variable assignment is an expression.
-         * Assignment expression evaluates to the value that is assigned.
-         * So, we can use an assignment expression as part of a larger expression.
-         */
+
+        // In Java, variable assignment is an expression.
+        // Assignment expression returns the value that is being assigned.
+        // So, we can use an assignment expression as part of a larger expression.
 
         // Example 1
         int a = 2;

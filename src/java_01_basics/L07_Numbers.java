@@ -28,7 +28,7 @@ public class L07_Numbers {
         System.out.println(Math.cbrt(125)); // 5.0
 
         // ==============================
-        // Modulus
+        // Remainder
         // ==============================
 
         // Returns int value
@@ -56,6 +56,7 @@ public class L07_Numbers {
         // If you want n decimal digits, use 10^n
         double roundOff2Decimal = (double) Math.round(3.6413456 * 100) / 100;
         // double roundOff2Decimal = Math.round(3.6413456 * 100) / 100.0;
+
         System.out.println(roundOff2Decimal); // 3.64
 
         // ==============================
@@ -102,9 +103,8 @@ public class L07_Numbers {
         // Convert number to string
         // ==============================
 
-        String a = String.valueOf(123); // "123"
-        String b = Integer.toString(123); // "123"
-        System.out.println(a + " " + b);
+        System.out.println(String.valueOf(123)); // "123"
+        System.out.println(Integer.toString(123)); // "123"
 
         System.out.println(String.valueOf(34.55)); // "34.55"
         System.out.println(Double.toString(34.55)); // "34.55"
@@ -137,7 +137,7 @@ public class L07_Numbers {
         System.out.println(positiveInf);
 
         // ==============================
-        // Arithmetic
+        // Division
         // ==============================
 
         // int / int => int

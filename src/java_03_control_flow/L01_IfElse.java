@@ -14,6 +14,8 @@ public class L01_IfElse {
 }
 
 /*
+ * Logical operators used to create complex conditions.
+ * 
  * && - logical and
  * || - logical or
  * ! - logical not

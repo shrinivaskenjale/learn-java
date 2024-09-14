@@ -34,7 +34,7 @@ public class L01_Ouput {
         // System.out.printf()
         // =====================
 
-        // It provides string formatting (similar to printf in C/C++ programming)
+        // It provides string formatting (similar to printf in C/C++)
 
         // 1. Integers
         System.out.printf("\nThis is integer: %d", 454);

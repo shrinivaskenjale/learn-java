@@ -6,7 +6,6 @@ public class L01_FirstProgram {
     }
 }
 
-
 /*
  * ========================
  * Java files and classes
@@ -25,16 +24,16 @@ public class L01_FirstProgram {
  * Compiling java program
  * =======================
  *
- * Compile: javac -d <path-to-create-class-files> <path-to-source-file>
+ * Compile: javac -d <output path> <source path>
  *
  * When we compile program, compiler creates `.class` files for each
- * class in the file.
+ * class in the file/program.
  *
  * =========================
  * Running compiled code
  * =========================
  *
- * Run: java <class-name-which-has-main-method>
+ * Run: java <class' name with main method>
  *
  * ===================
  * Running .jar file

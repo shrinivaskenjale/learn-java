@@ -13,7 +13,7 @@ public class L04_PrimitiveTypes {
         int myInt = 8; // 4 bytes
         long myLong = 84L; // 8 bytes
 
-        // Range of n bit integral type is -2^(n-1) to 2^(n-1) - 1
+        // Range of n bit integer type is -2^(n-1) to 2^(n-1) - 1
         // Java doesn't have separate signed or unsigned types.
         // All are signed 2's complement integers.
 
@@ -40,13 +40,8 @@ public class L04_PrimitiveTypes {
         // escape sequence of single character.
 
         char myChar = 'S'; // 2 bytes
-
         char rupee = '₹';
-
-        // The escape sequence \u0051 in java represents the Unicode character 'Q'
         char letterQ = '\u0051'; // 'Q'
-
-        // Unicode value of A is 65
         char letterA = 65; // 'A'
 
         System.out.println(myByte);
@@ -60,6 +55,6 @@ public class L04_PrimitiveTypes {
         System.out.println(rupee);
         System.out.println(letterQ);
         System.out.println(letterA);
-        System.out.println(Integer.toHexString((int) rupee));
+        System.out.println(Integer.toHexString((int) letterQ)); // 51
     }
 }
