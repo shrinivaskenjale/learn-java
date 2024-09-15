@@ -1,9 +1,9 @@
 package java_05_classes_and_objects;
 
 class Person {
-    // =====================
-    // Instance variables
-    // =====================
+    // ==========================
+    // Instance variables/fields
+    // ==========================
 
     String name;
     int age;

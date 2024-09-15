@@ -46,6 +46,9 @@ public class L01_ClassAndObject {
         // Getting class of the object
         System.out.println(led.getClass().getName()); // Fully qualified class name string
         System.out.println(led.getClass().getSimpleName()); // Only class name string
+
+        // The instanceof operator is used to determine if a given Java object is an
+        // instance of a given class, superclass, or interface.
         System.out.println(led instanceof Lamp); // true
 
     }
@@ -78,11 +81,11 @@ public class L01_ClassAndObject {
  * byte => 0
  * short => 0
  * int => 0
- * long => 0l
+ * long => 0L
  * float => 0.0f
  * double => 0.0d
  * boolean => false
- * char => \u0000 (null character)
+ * char => '\u0000' (null character)
  * Reference type => null
  * 
  * Note - Only instance and static variables get these default values but local
@@ -92,9 +95,3 @@ public class L01_ClassAndObject {
  */
 
 // https://www.programiz.com/java-programming/reflection
-
-// A file can contain at most 1 public class.
-// If file contains public class, file should be named same as class' name.
-
-// The instanceof operator is used to determine if a given Java object is an
-// instance of a given class, superclass, or interface.

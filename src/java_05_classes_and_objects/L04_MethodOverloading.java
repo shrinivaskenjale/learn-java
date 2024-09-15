@@ -38,8 +38,7 @@ public class L04_MethodOverloading {
  * In Java, two or more methods may have the same name if they differ in
  * parameters (different number of parameters, different types of parameters, or
  * different sequence). These methods are called overloaded methods and this
- * feature is called
- * method overloading.
+ * feature is called method overloading.
  * 
  * Return type doesn't matter.
  * 

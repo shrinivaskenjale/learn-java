@@ -1,4 +1,4 @@
-package java_06_strings;
+package java_06_strings_and_characters;
 
 class Bird {
     String name;

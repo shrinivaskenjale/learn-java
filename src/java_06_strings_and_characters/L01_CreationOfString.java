@@ -1,11 +1,11 @@
-package java_06_strings;
+package java_06_strings_and_characters;
 
 public class L01_CreationOfString {
     public static void main(String[] args) {
 
-        // =====================================
+        // ==================
         // String literals
-        // =====================================
+        // ==================
 
         // String literals are text wrapped in double quotes.
         String firstName = "Shrinivas";
@@ -13,48 +13,24 @@ public class L01_CreationOfString {
 
         // In Java, strings are immutable. This means once we create a string, we cannot
         // change that string.
-        // For this reason following way of creating strings in inefficient.
+        // For this reason following way of creating strings is inefficient.
         String info = "";
         info += "My name is Shrinivas.";
         info += " ";
         info += "I am a engineer.";
         System.out.println(info);
 
-        // ========================================
+        // To create mutable strings, use StringBuilder or StringBuffer classes.
+
+        // ==========================================
         // Creating Strings Using the `new` Keyword
-        // ========================================
+        // ==========================================
 
         String newString = new String("Java String");
         System.out.println(newString);
 
-        // =====================================
-        // StringBuilder class
-        // =====================================
-
-        StringBuilder sb = new StringBuilder();
-        sb.append("My name is John.");
-        sb.append(" ");
-        sb.append("I am a doctor.");
-
-        System.out.println(sb.toString());
-
-        // Resetting stringbuilder object length to 0
-        sb.setLength(0);
-
-        // We can chain multiple append() together
-        sb.append("My name is Brock.")
-                .append(" ")
-                .append("I am a student.");
-
-        System.out.println(sb.toString());
-
     }
 }
-// https://www.javatpoint.com/StringBuilder-class
-// StringBuffer is also similar to StringBuilder. It's a thread-safe version of
-// StringBuilder. So, StringBuilder is lightweight than StringBuffer.
-
-// charAt(), length() work with sb
 
 /*
  * 

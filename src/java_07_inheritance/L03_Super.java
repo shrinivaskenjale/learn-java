@@ -18,6 +18,7 @@ class Square extends Shape {
     String type = "SQUARE";
 
     Square() {
+        // Explicitly call the constructor of superclass
         super(); // Needs to be first statement
         System.out.println("Square constructor");
     }
@@ -94,6 +95,8 @@ public class L03_Super {
  * Using super() is not compulsory. Even if super() is not used in the subclass
  * constructor, the compiler implicitly calls the default/no-arg constructor of
  * the superclass.
+ * => It is best practice to create empty no-arg constructor if you are creating
+ * parameterized constructor in any class.
  * 
  * The compiler can automatically call the no-arg constructor. However, it
  * cannot call parameterized constructors.

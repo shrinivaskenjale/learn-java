@@ -2,9 +2,12 @@ package java_05_classes_and_objects;
 
 class Thing {
 
-    String name; // Instance variable
-    static String description; // Static variable
-    static int instanceCount = 0; // Static variable
+    // Instance variable
+    String name;
+
+    // Static variable
+    static String description;
+    static int instanceCount = 0;
 
     // instanceCount is a static variable to count the number of instances of a
     // class Thing.

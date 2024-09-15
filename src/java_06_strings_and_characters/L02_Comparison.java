@@ -1,11 +1,11 @@
-package java_06_strings;
+package java_06_strings_and_characters;
 
 public class L02_Comparison {
     public static void main(String[] args) {
 
-        // ===========
-        // Equality
-        // ===========
+        // =====================
+        // Equality of strings
+        // =====================
 
         String str1 = "Shrinivas";
         String str2 = "Shrinivas";
@@ -13,20 +13,24 @@ public class L02_Comparison {
         String str3 = new String("Shrinivas");
         String str4 = new String("Shrinivas");
 
-        // == compares the reference and returns boolean
+        // == compares the references
         System.out.println("str1 == str2 : " + (str1 == str2)); // true
         System.out.println("str2 == str3 : " + (str2 == str3)); // false
         System.out.println("str3 == str4 : " + (str3 == str4)); // false
         System.out.println();
 
-        // equals() compares the values and returns the boolean
+        // equals() compares the values
         System.out.println("str1.equals(str2) : " + str1.equals(str2)); // true
         System.out.println("str2.equals(str3) : " + str2.equals(str3)); // true
         System.out.println("str3.equals(str4) : " + str3.equals(str4)); // true
         System.out.println();
 
+        // equalsIgnoreCase() compares the values ignoring case
+        System.out.println("ABCD".equalsIgnoreCase("abcd")); // true
+        System.out.println();
+
         // ======================
-        // Alphabetical order
+        // Comparison of strings
         // ======================
 
         // compareTo() compares strings alphabetically
@@ -45,11 +49,24 @@ public class L02_Comparison {
         System.out.println(s3.compareTo(s1)); // 8 (because s3 > s1 )
         System.out.println();
 
-        // =====================================
-        // Characters
-        // =====================================
+        // Use compareToIgnoreCase() to compare strings ignoring case.
+        System.out.println("ABCD".compareToIgnoreCase("abcd")); // 0
+        System.out.println();
 
-        // < > == operators compare Unicode values of characters and return boolean
+        // ==========================
+        // Equality of characters
+        // ==========================
+
+        char ch1 = 'a';
+        char ch2 = 'a';
+
+        System.out.println(ch1 == ch2);
+
+        // ==========================
+        // Comparison of characters
+        // ==========================
+
+        // <, > and == operators compare Unicode values of characters and return boolean
 
         System.out.println('a' < 'z'); // true
         System.out.println('b' > 'y'); // false

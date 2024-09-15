@@ -12,10 +12,10 @@ public class L02_MultiDimensionalArrays {
                 { 6, 7, 8, 9 }
         };
 
-        // Accessing values
+        // Accessing elements
         System.out.println(grid[1][1]);
 
-        // Iterating with for loop.
+        // Iterating with for loop
         System.out.println("for loop");
         for (int i = 0; i < grid.length; i += 1) {
             for (int j = 0; j < grid[i].length; j += 1) {

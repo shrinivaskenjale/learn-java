@@ -2,8 +2,6 @@ package java_07_inheritance;
 
 class Animal {
 
-    // Members of the parent class
-
     String name;
 
     public void eat() {
@@ -72,7 +70,7 @@ public class L01_Inheritance {
  * Inheritance is an is-a relationship. That is, we use inheritance only if
  * there exists an is-a relationship between two classes.
  * 
- * We can use "child class is parent class" relation to determine inheritance.
+ * We can use "subclass is a superclass" relation to determine inheritance.
  * 
  * subclass is a superclass
  * - Car is a Vehicle

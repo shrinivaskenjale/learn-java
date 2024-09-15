@@ -44,6 +44,14 @@ public class L08_ArrayToList {
         System.out.println(namesList);
         System.out.println(Arrays.toString(namesArr));
 
+        // ===========
+        // Example 3
+        // ===========
+
+        List<String> members = Arrays.asList("Larry", "Moe", "Curly");
+
+        System.out.println(members);
+
     }
 }
 
@@ -81,7 +89,7 @@ public class L08_ArrayToList {
  * This method also provides a convenient way to create a fixed-size list
  * initialized to contain several elements.
  * 
- * => List<String> members = Arrays.asList("Larry", "Moe", "Curly");
+ * 
  * 
  * 
  * 

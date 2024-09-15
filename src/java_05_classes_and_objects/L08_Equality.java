@@ -13,7 +13,8 @@ class Student {
         return id + " " + name;
     }
 
-    // We can override `equals()` method to compare objects with symantic logic.
+    // We can override `equals()` method to compare objects with custom logic
+    // instead of comparing references.
     @Override
     public boolean equals(Object obj) {
         if (this == obj)
@@ -91,5 +92,14 @@ public class L08_Equality {
     }
 }
 
-// equals() and hashCode() contract:
-// https://g.co/gemini/share/b4a01300954e
+/*
+ * 
+ * equals() method is inherited from Object class.
+ * 
+ * equals(Object obj): This method checks if two objects are equal based on
+ * their references by default, but it is often overridden to compare object
+ * states instead.
+ * 
+ * If you override equals(), it's a best practice to also override hashCode() to
+ * ensure that two equal objects return the same hash code.
+ */

@@ -1,4 +1,4 @@
-package java_06_strings;
+package java_06_strings_and_characters;
 
 import java.util.Arrays;
 
@@ -220,8 +220,12 @@ public class L03_ImportantMethods {
         // Converts different types of values into string.
 
         char[] vowels = { 'a', 'e', 'i', 'o', 'u' };
+
         System.out.println(String.valueOf(vowels)); // "aeiou"
+
+        // For char[], println() automatically calls String.valueOf().
         System.out.println(vowels); // "aeiou"
+
         System.out.println(vowels.toString()); // [C@4617c264
 
         // ====================
@@ -242,9 +246,3 @@ public class L03_ImportantMethods {
 
     }
 }
-
-// https://www.programiz.com/java-programming/library/string/compareto
-// https://www.programiz.com/java-programming/library/string/comparetoignorecase
-
-// Check remaining string methods once:
-// https://www.programiz.com/java-programming/string

@@ -29,6 +29,18 @@ public class L07_HashCode {
  * object is modified. This integer need not remain consistent from one
  * execution of an application to another execution of the same application.
  * 
+ * ==========================
+ * Default hashCode() value
+ * ==========================
+ * 
+ * Default Behavior: The hashCode() method from the Object class returns a
+ * unique integer for each instance, typically based on the object's memory
+ * address.
+ * 
+ * Override in Custom Classes: It's common to override both hashCode() and
+ * equals() in classes where instances need to be compared logically rather than
+ * by memory location (e.g., in collections like HashSet or HashMap).
+ * 
  * ===================================
  * equals() and hashCode() relation
  * ===================================

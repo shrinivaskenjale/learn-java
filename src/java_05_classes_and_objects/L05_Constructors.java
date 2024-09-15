@@ -50,9 +50,9 @@ public class L05_Constructors {
 
 /*
  * 
- * ==========================
+ * ===============
  * Constructors
- * ==========================
+ * ===============
  * 
  * Constructor is a special method which is called automatically when we create
  * new instance of a class.
@@ -62,7 +62,6 @@ public class L05_Constructors {
  * Constructors do not have return type.
  * 
  * Generally, constructors are used to initialize instance variables.
- * 
  * 
  * When we don't declare any constructor, compiler uses default constructor. But
  * as soon as we create a constructor, default constructor dies.

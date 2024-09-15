@@ -107,7 +107,6 @@ public class L01_Arrays {
  * => nums = {1,2,3}; // Error
  * 
  * 
- * 
  * ================
  * Default values
  * ================

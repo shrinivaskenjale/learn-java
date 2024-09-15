@@ -16,13 +16,15 @@ final class Car extends Vehicle {
     // }
 
     // Final field
-    // final int K = 4; // a. Initialize when declaring
-
-    final int K;
+    final int K1 = 4; // a. Initialize when declaring
+    final int K2;
 
     Car() {
-        K = 4; // b. Initialize in the constructor
-        // K = 5; // Error if try to reassign
+        K2 = 4; // b. Initialize in the constructor
+
+        // Error if try to reassign
+        // K1 = 5;
+        // K2 = 5;
     }
 
 }
@@ -37,6 +39,7 @@ public class L05_FinalInInheritence {
         final int AGE = 23; // final variable
 
         // AGE = 25; // Error
+
         System.out.println(AGE);
 
         Car car = new Car();
@@ -63,6 +66,8 @@ public class L05_FinalInInheritence {
  * a. When declaring.
  * b. In the constructor, because constructor is called only once for each
  * object.
+ * 
+ * Local final variables can be intialized only once when declaring.
  * 
  * 
  * It is recommended to use uppercase to declare final variables in Java.

@@ -32,9 +32,9 @@ public class L04_Comparison {
 }
 
 /*
- * The == operator compares references of two arrays. But sometimes we want to
- * determine whether arrays are equal or not based on elements in them. In such
- * cases, we use these methods.
+ * The == relational operator compares references of two arrays. But sometimes
+ * we want to determine whether arrays are equal or not based on elements in
+ * them. In such cases, we use these methods.
  * 
  * ===========================================
  * Arrays.equals(arr1, arr2)
