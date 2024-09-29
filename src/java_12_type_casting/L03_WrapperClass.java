@@ -1,9 +1,8 @@
 package java_12_type_casting;
 
-public class WrapperClass {
+public class L03_WrapperClass {
     public static void main(String[] args) {
 
-        // create primitive types
         int intPrimitive = 5;
         double doublePrimitive = 5.65;
 
@@ -21,8 +20,16 @@ public class WrapperClass {
         System.out.println(intWrapper2 instanceof Integer);
         System.out.println(doubleWrapper2 instanceof Double);
 
+        // xxxValue()
         intPrimitive = intWrapper1.intValue();
         doublePrimitive = doubleWrapper1.doubleValue();
+
+        // Unboxing
+        int intPrimitive2 = intWrapper2;
+        double doublePrimitive2 = doubleWrapper2;
+
+        System.out.println(intPrimitive2);
+        System.out.println(doublePrimitive2);
     }
 
 }
@@ -35,7 +42,7 @@ public class WrapperClass {
  * The wrapper classes in Java are used to convert primitive types (int, char,
  * float, etc) into corresponding objects.
  * 
- * Each of the 8 primitive types has corresponding wrapper classes.
+ * Each of the 8 primitive types has corresponding wrapper class.
  * 
  * => byte - Byte
  * => short - Short
@@ -50,7 +57,7 @@ public class WrapperClass {
  * In Java, sometimes we might need to use objects instead of primitive data
  * types. For example, while working with collections.
  * => ArrayList<int> list = new ArrayList<>(); // Error
- * => ArrayList<Integer> list = new ArrayList<>(); // Runs
+ * => ArrayList<Integer> list = new ArrayList<>(); // Works
  * In such cases, wrapper classes help us to use primitive data types as
  * objects.
  * 

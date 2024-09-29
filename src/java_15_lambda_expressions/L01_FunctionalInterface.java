@@ -23,7 +23,7 @@ interface MyFunctionalInterface {
  * It can have any number of non-abstract methods.
  * 
  * For example, the Runnable interface from package java.lang; is a functional
- * interface because it constitutes only one method i.e. run().
+ * interface because it contains only one method i.e. run().
  * 
  * @FunctionalInterface annotation forces the Java compiler to indicate that the
  * interface is a functional interface. Hence, does not allow to have more than

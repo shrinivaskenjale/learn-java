@@ -4,11 +4,11 @@ package java_08_packages;
 // Importing all public declarations using *
 // import java_08_packages_2.*;
 
-// Importing individual public classes
+// Importing individual public declarations
 import java_08_packages_2.Animal;
 import java_08_packages_2.Tree;
 
-// Importing all static members 
+// Importing all static members of a class
 // import static java.lang.Math.*;
 
 // Importing individual static members
@@ -18,9 +18,12 @@ import static java.lang.Math.pow;
 public class App {
     public static void main(String[] args) {
 
-        Animal animal = new Animal(); // Constructor should be visible as well
+        // Constructor should be accessible to instantiate the class
+        Animal animal = new Animal();
         Tree tree = new Tree();
-        // Tiger tiger = new Tiger(); // Not accessible because not public
+
+        // Constructor is not accessible because class is not accessible
+        // Tiger tiger = new Tiger();
 
         System.out.println(animal);
         System.out.println(tree);
@@ -29,7 +32,7 @@ public class App {
         java.time.LocalDate date = java.time.LocalDate.now();
         System.out.println(date);
 
-        // Statically imported static member
+        // Statically imported static members
         System.out.println(PI);
         System.out.println(pow(3, 2));
 
@@ -92,8 +95,8 @@ public class App {
  * Import packages
  * =======================
  * 
- * The import statement allows us to import an entire package or only certain
- * classes and interfaces defined in the package.
+ * The import statement allows us to import all public declarations in the
+ * package or only certain public declarations defined in the package.
  * 
  * NOTE - You can only import classes, interfaces, enums and annotations that
  * are declared as `public` in other packages.
@@ -102,11 +105,20 @@ public class App {
  * The import statement is written directly after the package statement
  * (if it exists) and before rest of the code.
  * 
- * To import certain class => import <package>.<class>;
- * To import whole package => import <package>.*;
+ * To import certain declaration => import <package>.<declaration>;
+ * To import all declarations in the package => import <package>.*;
  * 
- * The import statement is optional. If you want to use class/interface from a
- * certain package, you can also use its fully qualified name.
+ * 
+ * ======================
+ * Fully Qualified Name
+ * ======================
+ * 
+ * A fully qualified name (FQN) in Java refers to the complete name of a class,
+ * interface, method, or field, including its package.
+ * 
+ * The import statement is optional if you use FQN to access public declarations
+ * from other packages.
+ * 
  * => java.time.LocalDate date = java.time.LocalDate.now();
  * 
  * 

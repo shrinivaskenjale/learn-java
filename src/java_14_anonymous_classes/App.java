@@ -26,16 +26,16 @@ public class App {
         Machine camera = new Machine() {
             @Override
             void start() {
-                System.out.println("Camera started");
                 showInfo();
+                System.out.println("Camera started");
             }
 
             // New methods can only be accessed inside {}
             void showInfo() {
                 System.out.println("This is a camera");
             }
-
         };
+
         camera.start();
         camera.stop();
         // camera.showInfo(); // Not accessible
@@ -44,7 +44,7 @@ public class App {
         // Use case 2: Implementing the interface on the fly
         // ====================================================
 
-        // Instantiating a class from interface
+        // Instantiating a class that implements the interface
         Plant plant = new Plant() {
             @Override
             public void grow() {

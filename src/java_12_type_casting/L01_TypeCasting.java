@@ -1,13 +1,13 @@
 package java_12_type_casting;
 
-public class App1 {
+public class L01_TypeCasting {
     public static void main(String[] args) {
 
         byte byteValue = 45;
         short shortValue = 67;
         int intValue = 32423;
         long longValue = 2442342; // Implicit conversion int to long
-        long longValue2 = 2432434242345435l;
+        long longValue2 = 2432434242345435L;
 
         float floatValue = 343.34f;
         double doubleValue = 3434.343;
@@ -17,26 +17,33 @@ public class App1 {
         // System.out.println(Byte.MAX_VALUE);
         // System.out.println(Byte.MIN_VALUE);
 
+        // =========================
+        // Implicit conversion
+        // =========================
+
+        // Implicit conversion: smaller to larger data type
+        doubleValue = shortValue;
+        System.out.println(doubleValue);
+
         // Implicit conversion does not occur when converting larger data type into
         // smaller data type.
         // intValue = longValue; // error
 
-        // Explicit data type conversion
+        // =========================
+        // Explicit conversion
+        // =========================
+
+        // Explicit conversion: larger to smaller data type
         intValue = (int) longValue;
         // This is possible because current value in longValue is in the range of int
         // data type. If number was larger, it would give unexpected output.
         System.out.println(intValue);
         System.out.println((int) longValue2); // unexpected output
 
-        // Implicit conversion when converting smaller data type to larger data type.
-        doubleValue = shortValue;
-        System.out.println(doubleValue);
-
-        // Explicit conversion: larger to smaller data type
         intValue = (int) floatValue;
-        System.out.println(intValue);
         // Above conversion does not round off the value. To round off values use
         // Math.round() function.
+        System.out.println(intValue);
 
         // Be careful when doing explicit data type conversion. Make sure to convert
         // value which lies in the range of smaller data type otherwise we get
@@ -54,12 +61,6 @@ public class App1 {
     }
 
 }
-
-// String to integer = Integer.parseInt(str)
-// String to double = Double.parseDouble(str)
-// Number to string = String.valueOf(num)
-// char to String = Character.toString(ch) = String.valueOf(ch)
-// Integer.toString(intValue)
 
 /*
  * ==============
@@ -85,7 +86,6 @@ public class App1 {
  * E.g., Converting int to double
  * int num = 10;
  * double data = num;
- * 
  * 
  * In the case of Widening Type Casting, the lower data type (having smaller
  * size) is converted into the higher data type (having larger size). Hence

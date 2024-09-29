@@ -26,6 +26,7 @@ public class L3 {
     }
 }
 
+@FunctionalInterface
 interface Walkable {
     void walk();
 }

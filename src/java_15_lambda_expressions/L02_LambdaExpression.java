@@ -35,15 +35,12 @@ public class L02_LambdaExpression {
 }
 
 /*
- * 
- * 
- * 
  * ===================
  * Lambda expression
  * ===================
  * 
  * The lambda expression was introduced first time in Java 8. Its main
- * objective to increase the expressive power of the language.
+ * objective is to increase the expressive power of the language.
  * 
  * Lambda expression is, essentially, an anonymous or unnamed method. The lambda
  * expression does not execute on its own. Instead, it is used to implement a
@@ -73,7 +70,7 @@ public class L02_LambdaExpression {
  * method of FI.
  * 
  * Defining data type of parameters is optional in LE.
- * (int a) -> a + 2 == (a) -> a + 2
+ * (int a) -> a + 2 is same as (a) -> a + 2
  * In case of ambiguity, you need to write types of parameters.
  * 
  * Type of the lambda expression is always a functional interface.

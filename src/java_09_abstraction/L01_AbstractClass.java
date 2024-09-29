@@ -32,8 +32,9 @@ class Bike extends Vehicle {
 
 }
 
-public class L01_AbstractClasses {
+public class L01_AbstractClass {
     public static void main(String[] args) {
+
         // Vehicle vehicle = new Vehicle(); // Error
 
         Car car = new Car();

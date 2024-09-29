@@ -10,6 +10,10 @@ public class App {
         // Parent class/interface variables can reference child class objects.
         Animal animal2 = dog;
 
+        // This is a core concept of polymorphism, where a reference variable of a
+        // parent type (in this case, Animal) can refer to an object of a child type
+        // (Dog).
+
         // When we call overridden method, we access method of object's class.
         animal2.move();
 
@@ -22,6 +26,9 @@ public class App {
         // Similarly, it can't access private methods of parent class since object of
         // child class doesn't have access to private fields.
 
+        // The instanceof operator checks whether the object referred to by a variable
+        // is an instance of a specific class or its subclass. It checks the actual type
+        // of the object at runtime, not the type of the reference.
         System.out.println(animal2 instanceof Dog);
 
     }
