@@ -4,7 +4,7 @@ public class L05_CatchMultipleExceptions {
 
     static void testCatchMultipleException() {
         try {
-            int array[] = new int[10];
+            int[] array = new int[10];
             array[10] = 30 / 0;
         } catch (ArithmeticException | ArrayIndexOutOfBoundsException e) {
             System.out.println(e.getMessage());
@@ -13,7 +13,7 @@ public class L05_CatchMultipleExceptions {
 
     static void testBaseException() {
         try {
-            int array[] = new int[10];
+            int[] array = new int[10];
             array[10] = 30 / 0;
         } catch (Exception e) {
             System.out.println(e.getMessage());
@@ -37,7 +37,7 @@ public class L05_CatchMultipleExceptions {
  * Each exception type that can be handled by the catch block is separated using
  * a vertical bar or pipe |.
  * 
- * catch (ExceptionType1 | Exceptiontype2 ex) {}
+ * catch (ExceptionType1 | Exceptiontype2 e) {}
  * 
  * =========================
  * Catching base Exception

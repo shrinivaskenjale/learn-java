@@ -1,6 +1,6 @@
 package java_18_enums;
 
-// Enum is nothing but a class which extends java.lang.Enum class
+// Enum is like a class which extends java.lang.Enum class
 // enum Size {
 // These are instances of Size class
 //     SMALL, MEDIUM, LARGE, EXTRALARGE
@@ -37,7 +37,7 @@ public class App {
         Size pizzaSize = Size.SMALL;
 
         switch (pizzaSize) {
-            // For case values don't prefix enum type.
+            // For case values not mandatory to prefix enum type.
             case EXTRALARGE:
                 System.out.println("Extra-large size pizza");
                 break;
@@ -57,8 +57,8 @@ public class App {
         }
 
         // Enums are instances of class of enum type
-        System.out.println(Size.SMALL.getClass());
-        System.out.println(Size.SMALL instanceof Size);
+        System.out.println(Size.SMALL.getClass().getSimpleName()); // Size
+        System.out.println(Size.SMALL instanceof Size); // true
 
         // Accessing instance method
         System.out.println(Size.MEDIUM.getSize());
@@ -97,7 +97,7 @@ public class App {
         // overriding the toString() method.
         // Syntax is different. Check it.
 
-        System.out.println(Size.LARGE.toString());
+        System.out.println(Size.LARGE.toString()); // LARGE
 
         // =========
         // name()
@@ -156,7 +156,7 @@ public class App {
  * An enum class can include methods, fields and constructors just like regular
  * classes.
  * 
- * When we create an enum class, the compiler will create instances (objects) of
+ * When we create an enum, the compiler will create instances (objects) of
  * each enum constants. Also, all enum constant is always public static final by
  * default.
  * 

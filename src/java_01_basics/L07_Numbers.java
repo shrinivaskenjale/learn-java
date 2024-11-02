@@ -88,7 +88,7 @@ public class L07_Numbers {
         System.out.println(random); // E.g., 0.21885550282566846
 
         // ==============================
-        // Convert string to number
+        // Parse string to number
         // ==============================
 
         int intNum = Integer.parseInt("200000"); // 200000

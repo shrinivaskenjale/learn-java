@@ -13,11 +13,14 @@ public class L01_Basics {
  * ==========================
  * 
  * See picture in the package.
+ * * Note: IOException is just example, There are many non-RuntimeException
+ * subclasses of Exception class.
  * 
  * Throwable class is the root class in the hierarchy.
  * 
  * The hierarchy splits into two branches: Error and Exception.
  * 
+ * The Throwable class is the superclass of all errors and exceptions in Java.
  * 
  * ==========
  * Errors
@@ -47,8 +50,18 @@ public class L01_Basics {
  * It contains information about the exception such as the name and description
  * of the exception and state of the program when the exception occurred.
  * 
- * The exception hierarchy also has two branches: RuntimeException and
- * IOException.
+ * 
+ * The direct subclasses of the Exception class in Java are RuntimeException and
+ * other classes that are not subclasses of RuntimeException:
+ * 
+ * a. RuntimeException:
+ * A direct subclass of Exception that is the superclass of all exceptions that
+ * can be thrown during expression evaluation. These are unchecked exceptions
+ * that are not validated by the compiler and do not need to be handled.
+ * 
+ * b. Other classes that are not subclasses of RuntimeException:
+ * These are checked exception classes that must be handled and indicated
+ * explicitly.
  * 
  * ======================
  * RuntimeException
@@ -61,10 +74,10 @@ public class L01_Basics {
  * during run-time.
  * 
  * Some of the common runtime exceptions are:
- * => Improper use of an API - IllegalArgumentException
- * => Null pointer access - NullPointerException
- * => Out-of-bounds array access - ArrayIndexOutOfBoundsException
- * => Dividing a number by 0 - ArithmeticException
+ * => IllegalArgumentException: Improper use of an API
+ * => NullPointerException: Null pointer access
+ * => ArrayIndexOutOfBoundsException: Out-of-bounds array access
+ * => ArithmeticException: Dividing a number by 0
  * 
  * If it is a runtime exception, it is your fault:
  * => The NullPointerException would not have occurred if you had checked
@@ -89,6 +102,9 @@ public class L01_Basics {
  * Some of the examples of checked exceptions are:
  * => Trying to open a file that doesn't exist results in FileNotFoundException
  * => Trying to read past the end of a file
+ * 
+ * 
+ * IOException SQLException FileNotFoundException ClassNotFoundException
  * 
  * 
  * ===================

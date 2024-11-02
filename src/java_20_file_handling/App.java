@@ -17,7 +17,7 @@ public class App {
         // Complete Beginners/read-this-file.txt";
 
         // using relative path with respect to place where from we run program.
-        String fileName = "./read-this-file.txt";
+        String fileName = "./src/read-this-file.txt";
 
         // create file object
         File textFile = new File(fileName);

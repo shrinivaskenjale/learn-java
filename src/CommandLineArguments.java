@@ -36,5 +36,5 @@ public class CommandLineArguments {
  * 
  * The main() method of every Java program only accepts string arguments. Hence
  * it is not possible to pass numeric arguments through the command line.
- * However, we can later convert string arguments into numeric values.
+ * However, we can later parse string arguments into numeric values.
  */
