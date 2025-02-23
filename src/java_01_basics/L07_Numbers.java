@@ -158,22 +158,22 @@ public class L07_Numbers {
 }
 
 /*
- * =============
- * Math class
- * =============
- * 
- * Math class is part of java.lang package.
- * => java.lang.Math
- * 
- * ===========
- * Note
- * ===========
- * 
- * The parseX() methods return primitive data type whereas valueOf() methods
- * return object representation of data type.
- * 
- * Integer.parseInt("34") => int
- * Integer.valueOf(34) => Integer
- * 
- */
-//
+
+=============
+Math class
+=============
+
+Math class is part of java.lang package.
+=> java.lang.Math
+
+===========
+Note
+===========
+
+The parseX() methods return primitive data type whereas valueOf() methods
+return object representation of data type.
+
+Integer.parseInt("34") => int
+Integer.valueOf(34) => Integer
+
+*/

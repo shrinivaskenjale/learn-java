@@ -134,68 +134,68 @@ public class L03_VariablesAndLiterals {
 }
 
 /*
- * ===========================
- * Variables:
- * ===========================
- *
- * Java is a statically-typed language. It means that all variables must be
- * declared before they can be used.
- *
- * A variable is a location in memory (storage area) to hold data.
- * 
- * The value of a variable can be changed in the program, hence the name
- * variable.
- * 
- * To indicate the storage area, each variable should be given a unique name
- * (identifier).
- *
- *
- * ===========
- * Keywords
- * ===========
- *
- * Keywords are predefined, reserved words used in programming language that
- * have special meanings to the compiler.
- *
- * E.g., int, char, extends, import etc.
- *
- * You cannot use keywords as variable name or identifier.
- *
- * =============
- * Identifiers
- * =============
- *
- * Identifiers are the name given to variables, classes, methods, etc.
- *
- * ===========================
- * Rules for naming identifiers:
- * ===========================
- *
- * 1. Java is case sensitive. Hence, age and AGE are two different identifiers.
- *
- * 2. Identifiers can contain letters, underscores, dollar signs and digits.
- *
- * 3. Identifiers must start with either a letter or an underscore(_) or a
- * dollar($) sign.
- *
- * 4. Identifiers cannot start with numbers.
- *
- * ===========================
- * Literals:
- * ===========================
- *
- * Literals are fixed values that are directly written into the source code.
- *
- * ===========================
- * Block & Scope:
- * ===========================
- *
- * A block is a group of statements (zero or more) that is enclosed in curly
- * braces { }.
- *
- * Variables declared inside {} are accessible inside {} only.
- *
- * You can't change data type of variable declared once in the same scope.
- *
- *
- */
+===========================
+Variables:
+===========================
+
+Java is a statically-typed language. It means that all variables must be
+declared before they can be used.
+
+A variable is a location in memory (storage area) to hold data.
+
+The value of a variable can be changed in the program, hence the name
+variable.
+
+To indicate the storage area, each variable should be given a unique name
+(identifier).
+
+
+===========
+Keywords
+===========
+
+Keywords are predefined, reserved words used in programming language that
+have special meanings to the compiler.
+
+E.g., int, char, extends, import etc.
+
+You cannot use keywords as variable name or identifier.
+
+=============
+Identifiers
+=============
+
+Identifiers are the name given to variables, classes, methods, etc.
+
+===========================
+Rules for naming identifiers:
+===========================
+
+1. Java is case sensitive. Hence, age and AGE are two different identifiers.
+
+2. Identifiers can contain letters, underscores, dollar signs and digits.
+
+3. Identifiers must start with either a letter or an underscore(_) or a
+dollar($) sign.
+
+4. Identifiers cannot start with numbers.
+
+===========================
+Literals:
+===========================
+
+Literals are fixed values that are directly written into the source code.
+
+===========================
+Block & Scope:
+===========================
+
+A block is a group of statements (zero or more) that is enclosed in curly
+braces { }.
+
+Variables declared inside {} are accessible inside {} only.
+
+You can't change data type of variable declared once in the same scope.
+
+
+*/

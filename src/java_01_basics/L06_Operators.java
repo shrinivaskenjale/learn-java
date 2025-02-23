@@ -90,6 +90,9 @@ public class L06_Operators {
         // Example 2
         System.out.println((b = 18) == 18);
 
+        // Declaration can't be used
+        // System.out.println((int b = 18) == 18); // Error
+
         // Example 3
         int x, y;
         x = y = 45;
@@ -99,45 +102,43 @@ public class L06_Operators {
 }
 
 /*
- *
- *
- * ====================
- * Types of operators
- * ====================
- *
- * 1. Arithmetic Operators: + - / * %
- *
- * 2. Assignment Operators: = += -=
- *
- * 3. Relational Operators: == != > < >= <=
- *
- * 4. Logical Operators: && || !
- *
- * 5. Unary Operators: + - ++ --
- *
- * 6. Bitwise Operators: ~ | & ^
- *
- * 7. Shift Operators: >> << >>>
- *
- * 8. Ternary Operators: ?:
- *
- * 9. instanceof operator
- *
- *
- *
- * ====================
- * Property of XOR:
- * ====================
- *
- * a ^ a = 0
- * a ^ 0 = a
- *
- *
- * ==========================================
- * Precedence & Associativity of Operators
- * ==========================================
- *
- * https://www.programiz.com/java-programming/operator-precedence
- *
- *
- */
+====================
+Types of operators
+====================
+
+1. Arithmetic Operators: + - / * %
+
+2. Assignment Operators: = += -=
+
+3. Relational Operators: == != > < >= <=
+
+4. Logical Operators: && || !
+
+5. Unary Operators: + - ++ --
+
+6. Bitwise Operators: ~ | & ^
+
+7. Shift Operators: >> << >>>
+
+8. Ternary Operators: ?:
+
+9. instanceof operator
+
+
+
+====================
+Property of XOR:
+====================
+
+a ^ a = 0
+a ^ 0 = a
+
+
+==========================================
+Precedence & Associativity of Operators
+==========================================
+
+https://www.programiz.com/java-programming/operator-precedence
+
+
+*/

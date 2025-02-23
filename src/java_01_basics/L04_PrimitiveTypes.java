@@ -42,6 +42,7 @@ public class L04_PrimitiveTypes {
         char myChar = 'S'; // 2 bytes
         char rupee = '₹';
         char letterQ = '\u0051'; // 'Q'
+        // char letterQ = 0x0051; // 'Q'
         char letterA = 65; // 'A'
 
         System.out.println(myByte);
